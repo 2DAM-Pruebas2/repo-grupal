@@ -1,0 +1,35 @@
+# --- Entornos y Variables (SEGURIDAD) ---
+.env
+.env.local
+.env.*.local
+*.env
+auth.json
+
+# --- Dependencias (PESADO) ---
+node_modules/
+jspm_packages/
+venv/
+.venv/
+env/
+dist/
+build/
+
+# --- Configuración Personal (IDEs) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Logs y Debug ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+*.log
+
+# --- Otros ---
+__pycache__/
+*.py[cod]
+*$py.class
